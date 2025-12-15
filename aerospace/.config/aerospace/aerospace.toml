@@ -155,3 +155,4 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
     4 = 2
     7 = 3
     8 = 3
+    M = 3

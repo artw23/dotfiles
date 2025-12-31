@@ -19,12 +19,7 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 
 [mode.main.binding]
     # See: https://nikitabobko.github.io/AeroSpace/goodies#open-a-new-window-with-applescript
-    alt-enter = '''exec-and-forget osascript -e '
-    tell application "Terminal"
-        do script
-        activate
-    end tell'
-    '''
+    alt-enter = 'exec-and-forget open -n /Applications/Ghostty.app' 
 
     # i3 wraps focus by default
     alt-h =         'focus --boundaries-action wrap-around-the-workspace left'
@@ -39,8 +34,8 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 
     # Consider using 'join-with' command as a 'split' replacement if you want to enable
     # normalizations
-    alt-h = 'split horizontal'
-    alt-v = 'split vertical'
+    alt-x = 'split horizontal'
+    alt-y = 'split vertical'
 
     alt-f = 'fullscreen'
 
@@ -115,7 +110,7 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
         run = "move-node-to-workspace 1"
 
 [[on-window-detected]]
-    if.app-id = 'com.mitchellh.ghosttty'
+    if.app-id = 'com.mitchellh.ghostty'
         run = "move-node-to-workspace 1"
 
 [[on-window-detected]]

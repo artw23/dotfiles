@@ -102,8 +102,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-if [ -f .zshrc.local ]; then
-    source ~.zshrc.local
+if [ -f $HOME/.zshrc.local ]; then
+    source $HOME/.zshrc.local
 fi
 
 export PATH="$HOME/.local/bin:$PATH"

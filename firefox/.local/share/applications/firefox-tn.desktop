@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Firefox - TN 
+Exec=firefox -no-remote -P "tn" --class="firefox-tn" %u
+Icon=firefox
+Type=Application
+StartupWMClass=Research
+Categories=Network;WebBrowser;

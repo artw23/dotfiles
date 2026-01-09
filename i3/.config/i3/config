@@ -190,9 +190,8 @@ bar {
 }
 
 assign [class="ghostty"] workspace 1 
-assign [class="firefox_firefox"] workspace 5
 assign [class="jetbrains-idea"] workspace 2
 assign [class="firefox-docs"] workspace 8
 assign [class="firefox-research"] workspace 4
 assign [class="firefox-tn"] workspace 7
-
+assign [class="firefox"] workspace 5

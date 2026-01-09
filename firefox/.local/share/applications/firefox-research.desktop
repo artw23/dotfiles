@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Firefox - Research
+Exec=firefox -no-remote -P "research" --class="firefox-research" %u
+Icon=firefox
+Type=Application
+StartupWMClass=Research
+Categories=Network;WebBrowser;

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Firefox - Docs
+Exec=firefox -no-remote -P "docs" --class="firefox-docs" %u
+Icon=firefox
+Type=Application
+StartupWMClass=Research
+Categories=Network;WebBrowser;
